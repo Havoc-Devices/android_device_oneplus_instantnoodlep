@@ -44,10 +44,6 @@ PRODUCT_PACKAGES += \
     fstab.qcom \
     init.recovery.target.rc
 
-# OPFeature
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/odm_feature_list:$(TARGET_COPY_OUT_ODM)/etc/odm_feature_list
-
 # Wifi Overlay
 PRODUCT_PACKAGES += \
     OnePlus8PWifiOverlay
